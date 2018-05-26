@@ -11,10 +11,12 @@ Mash at 60C for 15m
 Mash at 65C for 30m
 Mash at 75C for 10m
 Echo "Mash finished"
-Echo "Sterilisation starting"
 Pump to_grain off
-Boil for 5m
+Wait for 5m
 Pump from_grain off
+Echo "Please reconfigure pumps"
+Wait for user
+Echo "Sterilisation starting"
 Boil for 5m
 Echo "Sterilisation finished"
 ```
