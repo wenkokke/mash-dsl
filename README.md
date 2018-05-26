@@ -5,6 +5,8 @@ A low-level DSL for describing mashing and brewing recipes 🍺
 Pump to_grain on
 Pump from_grain on
 Heat to 45C
+Echo "Please insert grain"
+Wait for user
 Echo "Mash starting"
 Mash at 45C for 15m
 Mash at 60C for 15m
